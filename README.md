@@ -14,8 +14,8 @@ On Windows PowerShell, use `npm.cmd` if the execution policy blocks `npm.ps1`.
 
 ## Assets and configuration
 
-- `logo.png`: original supplied logo, used without altering the artwork.
-- `desgin].png`: original design reference only; no longer used as website imagery.
+- `public/assets/firnas-logo-white.png`: active official white/green wordmark; retired wing logos are in `public/assets/archive/`.
+- `public/assets/references/website-design.png`: original design reference saved alongside local website images.
 - All website photos, project previews, and video now come from FIRNAS.TECH. Original URLs are documented in `public/assets/SOURCES.md`.
 - `companyVideoSrc` in `src/data.js` points to the downloaded official homepage MP4. It plays in a native HTML5 player with controls. It is described as a company website video, not an event recording.
 - LinkedIn, Facebook, and Instagram in `src/data.js` use the profile links published by https://firnas.tech/. Unconfigured social links are omitted. No official YouTube link was found, so the event CTA links to the company’s news and events page. Set `youtubeUrl` when available.

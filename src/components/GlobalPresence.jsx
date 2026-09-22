@@ -22,7 +22,7 @@ export default function GlobalPresence() {
   const running = !paused && !interacting && !reduced && !hidden;
   useEffect(() => {
     if (!running) return;
-    const timer = setTimeout(() => setActive(index => (index + 1) % offices.length), 3500);
+    const timer = setTimeout(() => setActive(index => (index + 1) % offices.length), 2000);
     return () => clearTimeout(timer);
   }, [active, running]);
   const office = offices[active];

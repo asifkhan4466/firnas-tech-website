@@ -21,3 +21,5 @@ Navigation partner logos (official FIRNAS.TECH About menu):
 - partner-tmuc.png: https://firnas.tech/wp-content/uploads/2026/02/TMUC-logo-300x81-1.png
 
 Team strip: portraits, roles and skills from https://firnas.tech/ (Meet Our Talent Network), checked 2026-09-22. team-noman.png: /wp-content/uploads/2026/01/Gemini_Generated_Image_1sgtvd1sgtvd1sgt.png; team-asfand.png: /wp-content/uploads/2025/04/14.png; team-asim.png: /wp-content/uploads/2026/01/asim.png; team-haris.png: /wp-content/uploads/2025/12/Haris-12.png.
+
+Replacement logo: firnas-logo-white.png from https://firnas.tech/wp-content/uploads/2025/01/Firnas-TP-LOGO-WHITE.png (clean official variant of the supplied white/green logo). favicon.png from /wp-content/uploads/2025/06/cropped-Site-Icon-192x192.png. Original design saved in references/website-design.png. Retired wing logos kept in archive/. All active photographs are stored locally in this assets folder.

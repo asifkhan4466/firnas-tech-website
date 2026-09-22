@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Eyebrow, Button, Icon } from "./Shared";
-const logo = "/assets/firnas-symbol.png";
+const logo = "/assets/firnas-logo-white.png";
 import { companyStats, company } from "../data";
 
 const slides = [

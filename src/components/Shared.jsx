@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-const logo = "/assets/firnas-symbol.png";
+const logo = "/assets/firnas-logo-white.png";
 import { socialLinks } from "../data";
 
 const paths = {
@@ -57,10 +57,6 @@ export function Logo() {
   return (
     <a className="brand" href="#home" aria-label="FIRNAS.TECH home">
       <img src={logo} alt="FIRNAS.TECH — Where ideas find wings" />
-      <span className="brand-name" aria-hidden="true">
-        FIRNAS<span>.TECH</span>
-        <small>WHERE IDEAS FIND WINGS</small>
-      </span>
     </a>
   );
 }
