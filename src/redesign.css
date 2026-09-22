@@ -2355,4 +2355,39 @@ footer .footer-bottom {
   .nav-cta { padding-inline:12px; font-size:10px; gap:6px; }
   .mega-content { padding:16px; gap:16px; }
 }
+
+/* Performance pass: keep the same visuals while reducing paint work. */
+.team-window {
+  contain: layout paint;
+}
+.team-track {
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+}
+.team-card {
+  contain: layout paint style;
+  content-visibility: auto;
+}
+.glass-label,
+.mega-panel {
+  backdrop-filter: none;
+}
+.is-scanning .beacon-dot {
+  animation: none;
+}
+.beacon-dot {
+  transition: background .2s;
+}
+@media (max-width: 700px) {
+  body::before {
+    position: absolute;
+    min-height: 100%;
+  }
+  .glass-label {
+    box-shadow: 0 3px 12px #00132944;
+  }
+  .orbit-ring {
+    box-shadow: 0 0 8px var(--glow);
+  }
+}
 @media (max-width:480px) { .about-visual .about-orbit { inset:0; width:100%; height:100%; transform:none; } }
