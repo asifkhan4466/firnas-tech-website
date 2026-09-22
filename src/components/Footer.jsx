@@ -3,6 +3,33 @@ import { navigation, websiteUrl, services, company } from "../data";
 import { Logo, Icon } from "./Shared";
 export default function Footer() {
   const [subscribed, setSubscribed] = useState(false);
+  const [subscriptionError, setSubscriptionError] = useState(false);
+  const [subscribing, setSubscribing] = useState(false);
+
+  async function subscribe(e) {
+    e.preventDefault();
+    const form = e.currentTarget;
+    setSubscribing(true);
+    setSubscribed(false);
+    setSubscriptionError(false);
+
+    try {
+      const response = await fetch("https://formspree.io/f/mgavkqyk", {
+        method: "POST",
+        body: new FormData(form),
+        headers: { Accept: "application/json" },
+      });
+
+      if (!response.ok) throw new Error("Formspree request failed");
+      setSubscribed(true);
+      form.reset();
+    } catch {
+      setSubscriptionError(true);
+    } finally {
+      setSubscribing(false);
+    }
+  }
+
   return (
     <footer>
       <div className="container footer-grid">
@@ -47,30 +74,33 @@ export default function Footer() {
         <div>
           <h3>Newsletter</h3>
           <p>Subscribe to get the latest updates and news.</p>
-          <form
-            className="newsletter"
-            onSubmit={(e) => {
-              e.preventDefault();
-              setSubscribed(true);
-              e.currentTarget.reset();
-            }}
-          >
+          <form className="newsletter" onSubmit={subscribe}>
+            <input type="hidden" name="_subject" value="For updates" />
             <input
               type="email"
-              name="newsletter-email"
+              name="email"
               aria-label="Email for newsletter"
               placeholder="Enter your email"
               required
             />
-            <button type="submit" aria-label="Subscribe to newsletter">
+            <button
+              type="submit"
+              aria-label="Subscribe to newsletter"
+              disabled={subscribing}
+            >
               <Icon name="arrow" />
             </button>
           </form>
-          <p className="newsletter-note" role="status">
-            {subscribed
-              ? "Thank you! Demo subscription complete; no email is stored."
-              : "Frontend preview. No email is stored."}
-          </p>
+          {subscribed && (
+            <p className="newsletter-note" role="status">
+              Thank you for subscribing.
+            </p>
+          )}
+          {subscriptionError && (
+            <p className="newsletter-note newsletter-error" role="alert">
+              Subscription could not be sent. Please try again.
+            </p>
+          )}
         </div>
       </div>
       <div className="footer-bottom">
