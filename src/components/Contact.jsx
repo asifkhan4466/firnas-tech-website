@@ -129,7 +129,7 @@ export default function Contact({ notify }) {
           </div>
           <label>
             Subject
-            <select name="subject" defaultValue="" required>
+            <select name="_subject" defaultValue="" required>
               <option value="" disabled>
                 Select a subject
               </option>
