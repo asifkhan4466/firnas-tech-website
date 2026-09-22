@@ -2368,6 +2368,14 @@ footer .footer-bottom {
   contain: layout paint style;
   content-visibility: auto;
 }
+.form-error {
+  background: #fff1f2;
+  border-color: #fecdd3;
+  color: #be123c;
+}
+.contact-form .form-note {
+  display: none;
+}
 .glass-label,
 .mega-panel {
   backdrop-filter: none;

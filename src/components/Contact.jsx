@@ -3,10 +3,31 @@ import { Eyebrow, Icon, Button, Socials } from "./Shared";
 import { company, services } from "../data";
 export default function Contact({ notify }) {
   const [sent, setSent] = useState(false);
-  function submit(e) {
+  const [error, setError] = useState(false);
+  const [sending, setSending] = useState(false);
+
+  async function submit(e) {
     e.preventDefault();
-    setSent(true);
-    e.currentTarget.reset();
+    const form = e.currentTarget;
+    setSending(true);
+    setSent(false);
+    setError(false);
+
+    try {
+      const response = await fetch("https://formspree.io/f/mgavkqyk", {
+        method: "POST",
+        body: new FormData(form),
+        headers: { Accept: "application/json" },
+      });
+
+      if (!response.ok) throw new Error("Formspree request failed");
+      setSent(true);
+      form.reset();
+    } catch {
+      setError(true);
+    } finally {
+      setSending(false);
+    }
   }
   return (
     <section id="contact" className="section contact-section">
@@ -128,7 +149,9 @@ export default function Contact({ notify }) {
               maxLength={5000}
             />
           </label>
-          <Button type="submit">Send Message</Button>
+          <Button type="submit" disabled={sending}>
+            {sending ? "Sending..." : "Send Message"}
+          </Button>
           <p className="form-note">
             Frontend demo · Messages are not sent or stored.
           </p>
@@ -141,6 +164,11 @@ export default function Contact({ notify }) {
                   This is a demo confirmation. Email us to get in touch.
                 </small>
               </span>
+            </div>
+          )}
+          {error && (
+            <div className="form-success form-error" role="alert">
+              <span>Message could not be sent. Please try again.</span>
             </div>
           )}
         </form>
