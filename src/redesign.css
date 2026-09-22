@@ -2299,3 +2299,60 @@ footer .footer-bottom {
 .footer-brand .brand img { width:185px; height:45px; object-fit:contain; }
 .laptop-screen img { width:85%; height:auto; flex:1; min-height:0; object-fit:contain; }
 @media(max-width:700px) { .site-header .brand img { width:125px; height:36px; } }
+
+/* Keep all 30 profiles at the same readable card size and steady speed. */
+.team-track { --team-card-width:280px; --team-gap:20px; animation-duration:calc(var(--team-count) * 5s); }
+.team-group { width:auto; gap:var(--team-gap); padding-right:var(--team-gap); }
+.team-card { flex:0 0 var(--team-card-width); width:var(--team-card-width); display:flex; flex-direction:column; align-items:center; }
+.team-card p { min-height:36px; }
+.team-profile { display:inline-flex; gap:7px; align-items:center; margin-top:auto; padding:9px 12px; border:1px solid #65998f66; border-radius:7px; color:#b9eee1; font-size:12px; }
+.team-profile svg { width:16px; height:16px; }
+.team-profile:hover { background:#21505d; color:white; }
+.team-window:focus-within .team-track { animation-play-state:paused; }
+@media(max-width:700px) { .team-track { --team-card-width:246px; --team-gap:14px; } }
+
+.team-expertise { width:100%; margin:0 0 20px; }
+.team-expertise > small { display:block; color:#abc8cf; font-size:10px; letter-spacing:.6px; margin-bottom:9px; }
+.team-expertise .team-skills { min-height:58px; align-content:flex-start; }
+
+/* Phone-only layout refinements; desktop styles stay unchanged. */
+@media (max-width: 700px) {
+  .menu-toggle { min-width:44px; min-height:44px; }
+  .nav-inner { gap:10px; }
+  .hero-copy p, .about-copy p, .event-copy p, .contact-intro > p { font-size:14px; line-height:1.7; }
+  .service-card p, .project-info p, .process-step p, .footer-grid p, .footer-grid li { font-size:13px; line-height:1.6; }
+  .contact-form input, .contact-form select, .contact-form textarea, .newsletter input { font-size:16px; min-width:0; }
+  .contact-form input, .contact-form select, .newsletter input { min-height:44px; }
+  .contact-form, .contact-grid > *, .footer-grid > * { min-width:0; }
+  .contact-detail a, .footer-contact a { overflow-wrap:anywhere; }
+  .hero-tabs { gap:12px; width:100%; }
+  .hero-tabs button { min-height:44px; }
+  .team-card .team-profile { min-height:44px; }
+  .team-card h3 { font-size:19px; }
+  .team-card p { font-size:13px; }
+  .team-skills span { font-size:11px; }
+  .footer-grid a { display:inline-block; padding-block:5px; }
+  .footer-grid .brand { display:flex; }
+  .footer-grid .official-site { display:inline-flex; }
+}
+@media (max-width: 480px) {
+  .container { width:calc(100% - 32px); }
+  .services-grid { grid-template-columns:1fr; gap:14px; }
+  .service-card { padding:22px; }
+  .service-card h3 { font-size:17px; min-height:0; }
+  .service-card p { min-height:0; }
+  .service-card .learn-more { font-size:13px; }
+  .hero h1 { font-size:clamp(34px,10vw,46px); overflow-wrap:normal; }
+  .hero .stats > div { padding-inline:8px; min-width:0; }
+  .stats span { font-size:10px; }
+  .about-visual { padding:0; height:auto; min-height:0; display:flex; flex-direction:column; gap:16px; }
+  .about-visual .team-photo { width:100%; height:auto; aspect-ratio:1024/703; border-radius:20px; object-fit:cover; }
+  .about-visual .values-card, .about-visual .about-badge { position:static; transform:none; width:100%; margin:0; }
+  .about-visual .values-card { padding:20px; }
+  .values-card h3 { font-size:13px; }.values-card p { font-size:12px; }
+  .about-visual .about-badge { padding:16px; }
+  .site-header .brand img { width:115px; }
+  .nav-cta { padding-inline:12px; font-size:10px; gap:6px; }
+  .mega-content { padding:16px; gap:16px; }
+}
+@media (max-width:480px) { .about-visual .about-orbit { inset:0; width:100%; height:100%; transform:none; } }

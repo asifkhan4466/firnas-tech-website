@@ -1,0 +1,383 @@
+﻿[
+    {
+        "name":  "Visal Khan",
+        "role":  "CEO",
+        "image":  "/assets/team/visal-khan.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/04/3.png",
+        "linkedin":  "https://www.linkedin.com/in/visal-ahmad-147074199",
+        "skills":  [
+                       "Executive Leadership"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Noman Tariq",
+        "role":  "CTO",
+        "image":  "/assets/team/noman-tariq.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2026/01/Gemini_Generated_Image_1sgtvd1sgtvd1sgt.png",
+        "linkedin":  "https://www.linkedin.com/in/noaman-tariq-4a121b217",
+        "skills":  [
+                       "Python",
+                       "AI",
+                       "Computer Vision",
+                       "Natural Language Processing"
+                   ],
+        "skillsLabel":  "Skills",
+        "skillsSource":  "https://firnas.tech/"
+    },
+    {
+        "name":  "Umar Farooq",
+        "role":  "CMO",
+        "image":  "/assets/team/umar-farooq.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/12/umer.png",
+        "linkedin":  "",
+        "skills":  [
+                       "Marketing Leadership"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Meer Balach Qaisrani",
+        "role":  "COO",
+        "image":  "/assets/team/meer-balach-qaisrani.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/05/coo.png",
+        "linkedin":  "",
+        "skills":  [
+                       "Operations Leadership"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Talha Israr",
+        "role":  "CFO",
+        "image":  "/assets/team/talha-israr.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/04/6.png",
+        "linkedin":  "",
+        "skills":  [
+                       "Finance Leadership"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Saeed Abbas",
+        "role":  "Assistant Coordinator / SEO Specialist",
+        "image":  "/assets/team/saeed-abbas.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2026/01/saeed-bahi-image.png",
+        "linkedin":  "https://www.linkedin.com/in/saeed-abbas-manak",
+        "skills":  [
+                       "Coordination",
+                       "SEO"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Husna Ijaz",
+        "role":  "Social Media Manager",
+        "image":  "/assets/team/husna-ijaz.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/04/26.png",
+        "linkedin":  "https://www.linkedin.com/in/husna-ejaz-b95b96276",
+        "skills":  [
+                       "Social Media"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Anees ur Rehman",
+        "role":  "Managing Director",
+        "image":  "/assets/team/anees-ur-rehman.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/04/1.png",
+        "linkedin":  "",
+        "skills":  [
+                       "Business Management"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Muhammad Haris",
+        "role":  "Lead CMS Developer",
+        "image":  "/assets/team/muhammad-haris.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/12/Haris-12.png",
+        "linkedin":  "https://www.linkedin.com/in/mhdharris",
+        "skills":  [
+                       "WordPress",
+                       "Shopify",
+                       "WIX",
+                       "Webflow",
+                       "Framer"
+                   ],
+        "skillsLabel":  "Skills",
+        "skillsSource":  "https://firnas.tech/"
+    },
+    {
+        "name":  "Aftab Rais",
+        "role":  "Business Developer (UAE)",
+        "image":  "/assets/team/aftab-rais.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2026/02/aftab.png",
+        "linkedin":  "https://www.linkedin.com/in/aftab-rais-906b43170/",
+        "skills":  [
+                       "Business Development",
+                       "UAE"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Huzaifa Masood",
+        "role":  "Operational Manager",
+        "image":  "/assets/team/huzaifa-masood.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/04/10.png",
+        "linkedin":  "https://www.linkedin.com/in/huzaifa-turk-a86781232",
+        "skills":  [
+                       "Operations"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Haris Zeb",
+        "role":  "Sales Executive",
+        "image":  "/assets/team/haris-zeb.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/04/15.png",
+        "linkedin":  "https://www.linkedin.com/in/haris-zeb-298420222",
+        "skills":  [
+                       "Sales"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Hamza Akhtar",
+        "role":  "Web Developer",
+        "image":  "/assets/team/hamza-akhtar.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/04/7.png",
+        "linkedin":  "https://www.linkedin.com/in/hamza-akhtar-263555309",
+        "skills":  [
+                       "Web Development"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Asfand Yar",
+        "role":  "Lead Graphic Designer",
+        "image":  "/assets/team/asfand-yar.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/04/14.png",
+        "linkedin":  "https://www.linkedin.com/in/asfand-yar-502a77243",
+        "skills":  [
+                       "Photoshop",
+                       "Illustrator",
+                       "Figma",
+                       "Canva",
+                       "Adobe XD"
+                   ],
+        "skillsLabel":  "Skills",
+        "skillsSource":  "https://firnas.tech/"
+    },
+    {
+        "name":  "Musa Khan",
+        "role":  "Project Manager",
+        "image":  "/assets/team/musa-khan.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/04/17.png",
+        "linkedin":  "https://www.linkedin.com/in/muhammad-musa-khan-57817428b",
+        "skills":  [
+                       "Project Management"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Adil Allahdad",
+        "role":  "Web Developer",
+        "image":  "/assets/team/adil-allahdad.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/07/Adil-Allah-dad.png",
+        "linkedin":  "https://www.linkedin.com/in/adil-allahdad-web-developer/",
+        "skills":  [
+                       "Web Development"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Rabel Syed",
+        "role":  "UI/UX Designer",
+        "image":  "/assets/team/rabel-syed.jpg",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/04/Rabels.jpg",
+        "linkedin":  "https://www.linkedin.com/in/rabail-syed-78735534b",
+        "skills":  [
+                       "UI Design",
+                       "UX Design"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Asim Tariq",
+        "role":  "Mobile APP Developer",
+        "image":  "/assets/team/asim-tariq.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2026/01/asim.png",
+        "linkedin":  "https://www.linkedin.com/in/asim-tariq-2024cuiatd",
+        "skills":  [
+                       "Android",
+                       "iOS",
+                       "Java",
+                       "UI Design",
+                       "Cross-Platform"
+                   ],
+        "skillsLabel":  "Skills",
+        "skillsSource":  "https://firnas.tech/"
+    },
+    {
+        "name":  "Ameer Hamza",
+        "role":  "SQA Engineer",
+        "image":  "/assets/team/ameer-hamza.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/07/Abdullah.png",
+        "linkedin":  "https://www.linkedin.com/in/ameer-hamza-814a90193",
+        "skills":  [
+                       "Software Quality Assurance"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Nimra Zakir",
+        "role":  "CMS Developer",
+        "image":  "/assets/team/nimra-zakir.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/04/12.png",
+        "linkedin":  "https://www.linkedin.com/in/nimra-zakir-320732316",
+        "skills":  [
+                       "CMS Development"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Syed Nazim Shah",
+        "role":  "Web Developer",
+        "image":  "/assets/team/syed-nazim-shah.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/04/5.png",
+        "linkedin":  "https://www.linkedin.com/in/syednazimshah",
+        "skills":  [
+                       "Web Development"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Safa Noor",
+        "role":  "Web Developer",
+        "image":  "/assets/team/safa-noor.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/04/4.png",
+        "linkedin":  "https://www.linkedin.com/in/safa-noor-sn",
+        "skills":  [
+                       "Web Development"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Saad Mustafa",
+        "role":  "Web Developer",
+        "image":  "/assets/team/saad-mustafa.jpg",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/04/212112.jpg",
+        "linkedin":  "https://www.linkedin.com/in/saad-mustafa-31604822b",
+        "skills":  [
+                       "Web Development"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Maryum Tariq",
+        "role":  "Project Manager",
+        "image":  "/assets/team/maryum-tariq.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/04/16.png",
+        "linkedin":  "https://www.linkedin.com/in/maryum-tariq-011a0a108/",
+        "skills":  [
+                       "Project Management"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Fatima Zeb",
+        "role":  "Consultant QA",
+        "image":  "/assets/team/fatima-zeb.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/10/QA-Engineer.png",
+        "linkedin":  "https://www.linkedin.com/in/fatima-a-zeb",
+        "skills":  [
+                       "Quality Assurance",
+                       "Consulting"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Zainab Iqbal",
+        "role":  "Web Developer",
+        "image":  "/assets/team/zainab-iqbal.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/07/Zainab-Developer.png",
+        "linkedin":  "https://www.linkedin.com/in/zainab-iqbal-3a0216241",
+        "skills":  [
+                       "Web Development"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Adil Khan",
+        "role":  "Lead UI/UX Designer",
+        "image":  "/assets/team/adil-khan.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/08/2.png",
+        "linkedin":  "",
+        "skills":  [
+                       "UI Design",
+                       "UX Design",
+                       "Design Leadership"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Fahad Farman",
+        "role":  "Web Developer",
+        "image":  "/assets/team/fahad-farman.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/07/FAHAD.png",
+        "linkedin":  "https://www.linkedin.com/in/fahadfarman/",
+        "skills":  [
+                       "Web Development"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Uswa Fatima",
+        "role":  "Web Developer",
+        "image":  "/assets/team/uswa-fatima.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/04/uswa.png",
+        "linkedin":  "https://www.linkedin.com/in/uswafatima-",
+        "skills":  [
+                       "Web Development"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    },
+    {
+        "name":  "Khanzada Zain",
+        "role":  "Digital Strategist",
+        "image":  "/assets/team/khanzada-zain.png",
+        "source":  "https://firnas.tech/wp-content/uploads/2025/04/23.png",
+        "linkedin":  "https://www.linkedin.com/in/khanzada-zain-878390341",
+        "skills":  [
+                       "Digital Strategy"
+                   ],
+        "skillsLabel":  "Role focus",
+        "skillsSource":  "https://firnas.tech/our-team/"
+    }
+]
